@@ -1,0 +1,24 @@
+# Ignore build output
+out
+*.vsix
+
+# Ignore dependencies
+node_modules
+
+# Ignore environment settings
+.env
+
+# Ignore VSCode settings
+.vscode
+
+# Ignore test output
+.vscode-test
+
+# Ignore TypeScript build output
+**/*.tsbuildinfo
+
+# Ignore all .map files
+**/*.map
+
+# Ignore config files that may contain sensitive information
+config.json
